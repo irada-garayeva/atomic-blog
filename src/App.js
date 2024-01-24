@@ -55,6 +55,7 @@ function Header() {
 }
 
 function SearchPosts() {
+  // 3 CONSUME VALUE
   const { searchQuery, setSearchQuery } = usePosts();
 
   return (
